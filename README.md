@@ -1,4 +1,4 @@
-# Private repository of sample code and documentation
+# Repository of sample code and documentation
 
 The repo is split into three subdirs:
 
