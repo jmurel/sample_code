@@ -27,11 +27,11 @@ def process_file(file_path):
         file.write(processed_content)
 
 # working dir
-directory_path = '/Users/jakemurel/Desktop/EMEMT_Corpus_NORM'
+dir_path = '/Users/jakemurel/Desktop/EMEMT_Corpus_NORM'
 # iterate through .txt files in working dir
-for filename in os.listdir(directory_path):
+for filename in os.listdir(dir_path):
     if filename.endswith('.txt'):
-        file_path = os.path.join(directory_path, filename)
+        file_path = os.path.join(dir_path, filename)
         process_file(file_path)
 # confirm finished
-print("Text files processed successfully.")
+print("File processed.")
